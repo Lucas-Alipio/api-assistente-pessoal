@@ -10,7 +10,7 @@ from services.user import create_user
 
 
 
-blueprint = Blueprint('app', __name__, url_prefix='/tcc-api')
+blueprint = Blueprint('app', __name__, url_prefix='/assistente-pessoal')
 
 CORS(app)
 
